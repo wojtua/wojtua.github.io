@@ -1,10 +1,15 @@
-Package: com.supermamon.newpackage
-Name: New Package
+Package: com.rpetrich.swipeback
+Name: SwipeBack
+Depends: firmware (>= 4.0), mobilesubstrate, applist (>= 1.4.3), preferenceloader (>= 2)
+Version: 1.0.2
 Architecture: iphoneos-arm
-Depends: firmware (>7.0), mobilesubstrate
-Description: This is a sample new package. Firmware should be greater than 7.0
-Maintainer: Reposi3 <reposithree@gmail.com>
-Author: Reposi3 <reposithree@gmail.com>
+Description: swipe from edges to navigate app UI
+Maintainer: thebigboss.org <http://thebigboss.org>
+Author: Ryan Petrich <rpetrich+swipeback@gmail.com>
 Section: Tweaks
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-Version: 2.0.0-1
+Tag: purpose::extension
+Installed-Size: 31
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipebackDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipebackDp
+dev: rpetrich
+Icon: file:///Library/PreferenceLoader/Preferences/SwipeBack@2x.png
